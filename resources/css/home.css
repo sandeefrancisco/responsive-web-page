@@ -1,0 +1,291 @@
+header {
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.body {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 1024px;
+}
+
+#logo {
+    width: 130px;
+    position: relative;
+    top: 22px;
+    z-index: 1;
+}
+
+#site-title {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0px 35px;
+    vertical-align: bottom;
+}
+
+#smaller-title {
+    color: #009bfa;
+    font-size: 18px;
+}
+
+#bigger-title {
+    color: #193989;
+    font-size: 48px;
+}
+
+#divider {
+    width: 4px;
+    vertical-align: bottom;
+}
+
+#nav-bar {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#nav-bar li {
+    float: left;
+}
+  
+#nav-bar li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 79px;
+}
+
+#nav-bar li:first-child a {
+    padding-left: 35px !important;
+}
+
+#banner {
+    border-top: 15px solid #001254;
+}
+
+.fullscreen-containers {
+    width: 100%;
+    position: relative;
+}
+
+.background-images {
+    width: 100%;
+}
+
+#banner-text-container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 450px;
+}
+
+#banner-bigger-text {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#banner-smaller-text {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 1;
+    font-family: monospace;
+    margin-top: 25px;
+    opacity: 0.6;
+}
+
+#insights-section, #events-section {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+#insights-section-body, #events-section-body {
+    padding: 25px 0px;
+}
+
+.content-container {
+    margin-top: 20px;
+}
+
+.big-text {
+    font-size: 25px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.insight-content {
+    width: 29%;
+    background-color: #FFF;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    display: inline-block;
+    line-height: 1;
+}
+
+.insight-images {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#global-factor-block {
+    border-bottom: 10px solid #1450d2;
+    color: #1450d2;
+}
+
+#outlook-block {
+    border-bottom: 10px solid #01a49c;
+    color: #01a49c;
+    margin-left: 15px;
+}
+
+#capital-market-block {
+    border-bottom: 10px solid #009bfa;
+    color: #009bfa;
+    margin-left: 15px;
+}
+
+#contact-us-text-container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+#contact-us-bigger-text {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#contact-us-smaller-text {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1;
+    font-family: monospace;
+    margin-top: 25px;
+}
+
+.button {
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.event-content {
+    width: 32%;
+    display: inline-block;
+    position: relative;
+}
+
+.event-images {
+    width: 100%;
+}
+
+.event-date {
+    text-align: center;
+    line-height: 1;
+    width: 50px;
+    top: 10px;
+    left: 37px;
+    position: absolute;
+}
+
+.event-month {
+    color: #FFF;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.event-day {
+    color: #FFF;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.event-body {
+    width: 93%;
+    position: absolute;
+    left: 13px;
+    top: 110px;
+}
+
+.event-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.event-message {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.event-location {
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#event-2-button {
+    margin-top: 17px !important;
+}
+
+#second-event, #third-event {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #707070;
+    width: 100%;
+}
+
+#footer-body {
+    padding: 20px 0px 40px 0px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+#footer-left-side {
+    width: 49%;
+    display: inline-block;
+}
+
+#footer-right-side {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
+.social-image {
+    width: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
