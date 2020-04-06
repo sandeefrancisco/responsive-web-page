@@ -6,14 +6,17 @@
     <body>
         <div id="main-container">
             <!--HEADER-->
-            <header class="body">
-                <img src="resources/img/logo.png" title="logo" alt="logo" id="logo" />
+            <header id="header" class="body">
+                <img src="resources/img/logo.png" alt="logo" id="logo" />
+                <img src="resources/img/logo-mobile.png" alt="logo" id="logo-mobile" />
+                <img src="resources/img/hamburger.png" alt="nav-bar-icon" data-status="close" id="nav-bar-icon" />
                 <div id="site-title">
                     <div id="smaller-title">Research Professional</div>
                     <div id="bigger-title">Platform</div>
                 </div>
-                <img src="resources/img/divider.png" title="divider" alt="divider" id="divider" />
+                <img src="resources/img/divider.png" alt="divider" id="divider" />
                 <div id="nav-bar">
+                    <div id="nav-bar-header">Site Links</div>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
@@ -26,10 +29,14 @@
             <!--END OF HEADER-->
             <!--BANNER-->
             <div id="banner" class="fullscreen-containers">
-                <img src="resources/img/banner.png" id="banner-photo" class="background-images" alt="banner" title="banner"/>
+                <img src="resources/img/banner.png" id="banner-photo" class="background-images" alt="banner" />
                 <div id="banner-text-container">
-                    <div id="banner-bigger-text">
-                        ACME Wealth Management Platforms 
+                    <div id="mobile-banner-first">Research Professional Platforms</div>
+                    <div class="banner-bigger-text" id="banner-first-big-text">
+                        ACME Wealth
+                    </div>
+                    <div class="banner-bigger-text" id="banner-second-big-text">
+                        Management Platforms 
                     </div>
                     <div id="banner-smaller-text">
                         Invest Exellence. <br>
@@ -42,9 +49,11 @@
             <!--INSIGHTS-->
             <div id="insights-section">
                 <div id="insights-section-body" class="body">
-                    <div class="big-text">ACME Insights</div>
+                    <div class="big-text">ACME 
+                        <span class="mobile-bold-text">Insights</span>
+                    </div>
                     <div class="small-text">How are factors being used around the world?</div>
-                    <div class="content-container">
+                    <div class="content-container" id="insight-content-container">
                         <div class="insight-content" id="global-factor-block">
                             <img src="resources/img/global_factor.png" class="insight-images" alt="insight images" title="global factor"/>
                             Global Factor Investing Study
@@ -63,7 +72,7 @@
             <!--END OF INSIGHTS-->
             <!--CONTACT US-->
             <div id="contact-us" class="fullscreen-containers">
-                <img src="resources/img/contact-us-background.png" class="background-images" alt="contact us" title="contact us"/>
+                <img src="resources/img/contact-us-background.png" id="contact-us-background" class="background-images" alt="contact us" title="contact us"/>
                 <div id="contact-us-text-container">
                     <div id="contact-us-bigger-text">
                         Our Commitment to Professionals 
@@ -81,57 +90,62 @@
             <!-- EVENTS-->
             <div id="events-section">
                 <div id="events-section-body" class="body">
-                    <div class="big-text">Upcoming Events</div>
+                    <div class="big-text">Upcoming 
+                        <span class="mobile-bold-text">Events</span>
+                    </div>
                     <div class="small-text">This needs a great tagline, but I'll fill it in later</div>
-                    <div class="content-container">
-                        <div class="event-content" id="first-event">
-                            <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
-                            <div class="event-date">
-                                <div class="event-month">JAN</div>
-                                <div class="event-day">28</div>
-                            </div>
-                            <div class="event-body">
-                                <div class="event-title">Insight Exchange Network</div>
-                                <div class="event-message">Join us for this conference showcasing innovation.</div>
-                                <div class="button">
-                                    Get More Insight
+                    <div class="content-container" id="event-section-body">
+                        <div id="event-section-body-inner">
+                            <div class="event-content" id="first-event">
+                                <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
+                                <div class="event-date">
+                                    <div class="event-month">JAN</div>
+                                    <div class="event-day">28</div>
                                 </div>
-                                <div class="event-location">Chicago, IL</div>
-                            </div>
-                        </div>
-
-                        <div class="event-content" id="second-event">
-                            <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
-                            <div class="event-date">
-                                <div class="event-month">FEB</div>
-                                <div class="event-day">12</div>
-                            </div>
-                            <div class="event-body">
-                                <div class="event-title">Citywide Buyer's Retreat</div>
-                                <div class="event-message">Find out how banks are responding to the changing future of interest...</div>
-                                <div class="button" id="event-2-button">
-                                    Get More Insight
+                                <div class="event-body">
+                                    <div class="event-title">Insight Exchange Network</div>
+                                    <div class="event-message">Join us for this conference showcasing innovation.</div>
+                                    <div class="button">
+                                        Get More Insight
+                                    </div>
+                                    <div class="event-location">Chicago, IL</div>
                                 </div>
-                                <div class="event-location">The Wagner, New York</div>
                             </div>
-                        </div>
-                        <div class="event-content" id="third-event">
-                            <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
-                            <div class="event-date">
-                                <div class="event-month">MAY</div>
-                                <div class="event-day">6</div>
-                            </div>
-                            <div class="event-body">
-                                <div class="event-title">Research Exchange</div>
-                                <div class="event-message">Find the best online resources to help with your investment...</div>
-                                <div class="button">
-                                    Get More Insight
+    
+                            <div class="event-content" id="second-event">
+                                <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
+                                <div class="event-date">
+                                    <div class="event-month">FEB</div>
+                                    <div class="event-day">12</div>
                                 </div>
-                                <div class="event-location">London, England</div>
+                                <div class="event-body">
+                                    <div class="event-title">Citywide Buyer's Retreat</div>
+                                    <div class="event-message">Find out how banks are responding to the changing future of interest...</div>
+                                    <div class="button" id="event-2-button">
+                                        Get More Insight
+                                    </div>
+                                    <div class="event-location">The Wagner, New York</div>
+                                </div>
+                            </div>
+                            <div class="event-content" id="third-event">
+                                <img src="resources/img/event-background.png" class="event-images" alt="event images" title="insite exchange"/>
+                                <div class="event-date">
+                                    <div class="event-month">MAY</div>
+                                    <div class="event-day">6</div>
+                                </div>
+                                <div class="event-body">
+                                    <div class="event-title">Research Exchange</div>
+                                    <div class="event-message">Find the best online resources to help with your investment...</div>
+                                    <div class="button">
+                                        Get More Insight
+                                    </div>
+                                    <div class="event-location">London, England</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <img src="resources/img/logo-without-text.png" alt="logo" id="logo-without-text"/>
             </div>
             <!-- END OF EVENTS-->
             <!-- FOOTER -->
@@ -151,5 +165,37 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+            var navBar = document.getElementById("nav-bar");
+            var navBarIcon = document.getElementById("nav-bar-icon");
+            navBarIcon.addEventListener("click", toggleNavBar);
+
+            function toggleNavBar() {
+                if (navBar.style.display === "none" || navBar.style.display === "") {
+                    navBar.style.display = "block";
+                    navBarIcon.dataset.status = "open";
+                    document.getElementById("nav-bar-icon").src = "resources/img/close.png";
+                } else {
+                    navBar.style.display = "none";
+                    navBarIcon.dataset.status = "close";
+                    document.getElementById("nav-bar-icon").src = "resources/img/hamburger.png";
+                }
+            }
+
+            window.addEventListener("resize", onResize);
+
+            function onResize() {
+                if (window.innerWidth >= 1025) {
+                    navBar.style.display = "inline-block";
+                } else {
+                    if (navBarIcon.dataset.status == "close") {
+                        navBar.style.display = "none";
+                    } else {
+                        navBar.style.display = "block";
+                    }
+                }
+            }
+        </script>
     </body>
 </html>

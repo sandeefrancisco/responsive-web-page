@@ -1,0 +1,231 @@
+@media only screen and (max-width: 1040px) and (min-width: 1025px) {
+    .body {
+        min-width: 1000px;
+    }
+
+    #nav-bar li a {
+        padding-left: 70px;
+    }
+
+    .insight-content {
+        width: 28%;
+    }
+
+    #second-event, #third-event {
+        margin-left: 5px;
+    }
+
+    #footer-left-side {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #site-title, #divider {
+        display: none;
+    }
+
+    .body {
+        width: 100%;
+        min-width: unset;
+    }
+
+    header {
+        background-color: #eaecee;
+        padding: 10px 0px 0px 0px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo-mobile {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #nav-bar-icon {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        width: 35px;
+        cursor: pointer;
+    }
+    #nav-bar {
+        display: none;
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px 0px;
+        background-color: #FFF;
+    }
+
+    #nav-bar-header {
+        display: block;
+        width: 90%;
+        border-bottom: 1px solid #eaecee;
+        text-align: center;
+        margin: 0 auto;
+        color: darkblue;
+        padding-bottom: 3px;
+    }
+
+    #nav-bar li {
+        float: none;
+        background-color: #eaecee;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 15px 0px;
+    }
+      
+    #nav-bar li a {
+        display: block;
+        color: gray;
+        text-decoration: none;
+        padding: 0;
+    }
+
+    #nav-bar li:first-child a {
+        padding-left: 0;
+    }
+
+    #banner {
+        width: 100%;
+        background-color: #1b9cf8;
+        border-top: none;
+        padding: 20px 0px;
+    }
+
+    #banner-photo {
+        display: none;
+    }
+
+    #banner-text-container {
+        position: relative;
+        width: 80%;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #mobile-banner-first {
+        color: #FFF;
+        display: block;
+        font-size: 20px;
+    }
+
+    #banner-first-big-text {
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    #banner-second-big-text {
+        color: #FFF;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1;
+        width: 100%;
+    }
+
+    #banner-smaller-text {
+        font-size: 20px;
+        font-family: auto;
+        opacity: 1;
+        padding-bottom: 45px;
+        line-height: 1.3;
+    }
+
+    #insights-section {
+        background-color: #001a7b;
+        color: #FFF;
+    }
+
+    .mobile-bold-text {
+        font-weight: bold;
+    }
+
+    #insights-section-body {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .big-text {
+        font-size: 40px;
+    }
+
+    .small-text {
+        font-size: 20px;
+    }
+
+    .insight-content {
+        width: 44%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    #insight-content-container {
+        text-align: center;
+    }
+
+    #contact-us-bigger-text {
+        font-size: 40px;
+    }
+
+    #contact-us-smaller-text {
+        font-size: 17px;
+    }
+
+    #contact-us-text-container {
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+
+    #events-section-body {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0px;
+        color: #001a7b;
+        overflow-y: auto;
+    }
+
+    #event-section-body-inner {
+        width: 1020px;
+    }
+
+    #logo-without-text {
+        display: block;
+        width: 75px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 970px) {
+    #contact-us-background {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    #contact-us-background {
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .insight-content{
+        width: 96%;
+    }
+
+    #outlook-block, #capital-market-block {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}
